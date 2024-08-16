@@ -111,26 +111,6 @@ def rotation_matrix_y(angle_degrees):
     [0, 0, 0, 1]
     ])
     
-    # # y axis
-    # rotation_matrix = np.array([
-    #     [cos_angle, 0, sin_angle, 0],
-    #     [0, 1, 0, 0],
-    #     [-sin_angle, 0, cos_angle, 0],
-    #     [0, 0, 0, 1]
-    # ])
-    
-    # # z axis
-    # rotation_matrix = np.array([
-    # [cos_angle, -sin_angle, 0, 0],   # x axis
-    rotation_matrix = np.array([
-    [1, 0, 0, 0],
-    [0, cos_angle, -sin_angle, 0],
-    [0, sin_angle, cos_angle, 0],
-    [0, 0, 0, 1]
-    ])
-    # [sin_angle, cos_angle, 0, 0],
-    # [0, 0, 1, 0],
-    # [0, 0, 0, 1]])
     return rotation_matrix
 
 # Define the rotation angle
