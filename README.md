@@ -70,6 +70,8 @@ python find_points.py <path/to/obj/file>
 
 Usage:
 use default values for transformation (40,0,0) for (x,y,z) axes.
- ```python 3d_alignment.py checkpoints/custom/results/examples/epoch_20_000000/000006.obj```
+ ```python 3d_alignment.py checkpoints/custom/results/examples/epoch_20_000000/000006.obj
+ ```
  use keyword --rotation_angles for user defined rotation
-```python 3d_alignment.py checkpoints/custom/results/examples/epoch_20_000000/000006.obj --rotation_angles 30 30 -30```
+```python 3d_alignment.py checkpoints/custom/results/examples/epoch_20_000000/000006.obj --rotation_angles 30 30 -30
+```
