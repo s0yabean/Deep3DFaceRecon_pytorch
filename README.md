@@ -5,7 +5,7 @@
 git clone https://github.com/colt18/Deep3DFaceRecon_pytorch.git
 cd Deep3DFaceRecon_pytorch
 conda env create -f environment.yml
-source activate deep3d_pytorch
+source activate deep3dfacerecon
 ```
 
 2. Install Nvdiffrast library:
