@@ -23,6 +23,10 @@ cp -r ./insightface/recognition/arcface_torch ./models/
 ```
 ## Inference with a pre-trained model
 
+## Quickstart
+
+Open the Colab: https://colab.research.google.com/drive/1CjLrVCKWPqeZ2oH9Bi5xeAiMUzMN_j3a#scrollTo=w2sKT7qnrDyI which is also the .ipynb file saved in this repo.
+
 ### Prepare prerequisite models
 
 Link to 3 files: https://drive.google.com/drive/folders/1hRgefksqT6ZS7T6kAfjVC7zldob3dgLH?usp=drive_link
@@ -59,6 +63,10 @@ python test.py --name=custom --epoch=20 --img_folder=<folder_to_test_images>
 python test.py --name=custom --epoch=20 --img_folder=./datasets/examples
 ```
 ## Mesh alignment code
+
+This can be re-used for other 3D libraries as well, which manually rotates any 3D mesh into a preferred angle, and only works for meshes that have the same total length for different faces. For example, this library has 
+
+It works by manually selecting the nose tip and middle of the 2 eyes right to get the indexes of the 3 points. To summarise, this code works for meshes where the total vertices is the same, no matter the face input used.
 
 1. find_points.py
 
