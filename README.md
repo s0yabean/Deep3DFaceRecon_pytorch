@@ -30,6 +30,8 @@ cp drive/01_MorphableModel.mat ./BFM
 cp drive/Exp_Pca.bin ./BFM
 mkdir -p ./checkpoints/custom/
 cp drive/epoch_20.pth ./checkpoints/custom
+%mkdir -p ./checkpoints/lm_model/
+%cp /content/drive/MyDrive/upwork/drive/68lm_detector.pb ./checkpoints/lm_model
 ```
 
 ### Test with custom images
