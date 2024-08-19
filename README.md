@@ -24,6 +24,9 @@ cp -r ./insightface/recognition/arcface_torch ./models/
 ## Inference with a pre-trained model
 
 ### Prepare prerequisite models
+
+Link to 3 files: https://drive.google.com/drive/folders/1hRgefksqT6ZS7T6kAfjVC7zldob3dgLH?usp=drive_link
+
 Copy drive directory to main folder and then:
 ```
 cp drive/01_MorphableModel.mat ./BFM
