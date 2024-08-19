@@ -5,3 +5,4 @@ models/
 insightface/
 selected_point_ids.yaml
 __pycache__/
+datasets/*
