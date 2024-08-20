@@ -37,6 +37,8 @@ cp drive/01_MorphableModel.mat ./BFM
 cp drive/Exp_Pca.bin ./BFM
 mkdir -p ./checkpoints/custom/
 cp drive/epoch_20.pth ./checkpoints/custom
+mkdir -p ./checkpoints/lm_model/
+cp /content/drive/MyDrive/upwork/drive/68lm_detector.pb ./checkpoints/lm_model
 ```
 
 ### Test with custom images
@@ -44,15 +46,17 @@ To reconstruct 3d faces from test images, organize the test image folder as foll
 ```
 Deep3DFaceRecon_pytorch
 │
-└─── <folder_to_test_images>
+└─── datasets
     │
-    └─── *.jpg/*.png
-    |
-    └─── detections
-        |
-	└─── *.txt
+    └─── <test_folder_name>
+
 ```
-The \*.jpg/\*.png files are test images. The \*.txt files are detected 5 facial landmarks with a shape of 5x2, and have the same name as the corresponding images. Check [./datasets/examples](datasets/examples) for a reference.
+
+and then run `face_landmark_detection.py`:
+```
+python face_landmark_detection.py --image_folder=<test_folder_name> 
+```
+This will create `detections` folder under specified test_folder The \*.txt files are detected 5 facial landmarks with a shape of 5x2, and have the same name as the corresponding images..
 
 Then, run the test script:
 ```
