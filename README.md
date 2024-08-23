@@ -117,6 +117,16 @@ point_ids:
 - 8191
 - 12135
 - 4668
-(55, -1, 0)
+rotation angle to center: (55, -1, 0)
 
-Is the standard "center".
+## 3DDFA_v2
+
+https://colab.research.google.com/drive/1OYrg3cTwkqS0DiRqDlv6DIDsyPwcNmH7?usp=sharing
+
+point_ids:
+- 8190
+- 4410
+- 12004
+rotation angle to center: (45, 1, 0)
+
+
