@@ -104,8 +104,8 @@ use keyword --rotation_angles for user defined rotation
 ```
 python 3d_alignment.py <path/to/obj/file> --rotation_angles 30 30 -30
 ```
-55 0 0 seems to be the closest visually for most cases, not 40.
+55 -1 0 seems to be the closest visually for most cases, not 40.
 
 ## Step 5
 
-Based on a normalised rotation eg. (55, 0, 0), we can proceed to obtain different angles of the face and save as images, which are then converted to embeddings for distance comparison. 
+Based on a normalised rotation eg. (55, -1, 0) for deep3dface, we can proceed to obtain different angles of the face and save as images, which are then converted to embeddings for distance comparison. 
