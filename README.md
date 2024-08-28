@@ -1,4 +1,16 @@
 
+This repository, Deep3DFaceRecon, is focused on 3D face reconstruction from images. 
+
+It utilizes deep learning techniques to create a 3D model of a face based on 2D images. Here’s a breakdown of its main components and functionalities:
+
+Key Features:
+1. 3D Face Reconstruction:
+The primary goal is to reconstruct a 3D face model from 2D images using neural networks.
+2. Data Preparation:
+Scripts are provided to prepare datasets of .obj files.
+3. Mesh Rotation and Normalization:
+Scripts are available for rotating and normalizing 3D face meshes, ensuring consistent orientation and alignment across different reconstructions.
+
 ## Installation
 1. Clone the repository and set up a conda environment with all dependencies as follows:
 ```
@@ -129,4 +141,22 @@ point_ids:
 - 12004
 rotation angle to center: (45, 1, 0)
 
+## Synergy
 
+## Inferno
+
+## HRN
+
+https://colab.research.google.com/drive/1C5DuB8pTZxk_vdLAGttPlezzfMY3gixB?usp=sharing
+
+3 versions here:
+
+a) The Face (14 Seconds on T4 GPU Colab)
+Directly obtainable from the .obj file.
+
+b) The Face with Head (24 Seconds on T4 GPU Colab)
+Directly obtainable from the .obj file.
+
+c) The Head with Hair (20-30 Seconds on T4 GPU Colab)
+NOT directly obtainable from the .obj file.
+The script still needs work as the obj file on it's own only has the head, hair is in metadata and still needs some work to add-on.
