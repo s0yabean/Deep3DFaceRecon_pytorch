@@ -143,7 +143,13 @@ rotation angle to center: (45, 1, 0)
 
 ## Synergy
 
+https://colab.research.google.com/drive/1pqqnDwkSnUnBjMpAfZtHlI3GH9N2hNw9?usp=sharing
+
 ## Inferno
+
+https://colab.research.google.com/drive/1PN9X9mOGcrXD4FfnEewLFzG9x2S8kcHe?usp=sharing
+
+
 
 ## HRN
 
@@ -156,6 +162,13 @@ Directly obtainable from the .obj file.
 
 b) The Face with Head (24 Seconds on T4 GPU Colab)
 Directly obtainable from the .obj file.
+
+rotation_angles 160 150 55
+
+point_ids:
+- 25484
+- 69694
+- 47912
 
 c) The Head with Hair (20-30 Seconds on T4 GPU Colab)
 NOT directly obtainable from the .obj file.
