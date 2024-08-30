@@ -123,7 +123,11 @@ python 3d_alignment.py <path/to/obj/file> --rotation_angles 30 30 -30
 
 Based on a normalised rotation eg. (55, -1, 0) for deep3dface, we can proceed to obtain different angles of the face and save as images, which are then converted to embeddings for distance comparison. 
 
-## Deep3dface
+### List of indexes and rotation angles for different models.
+
+## Deep3dface (this repo)
+
+https://colab.research.google.com/drive/1CjLrVCKWPqeZ2oH9Bi5xeAiMUzMN_j3a
 
 point_ids:
 - 8191
@@ -132,7 +136,7 @@ point_ids:
 rotation angle to center: (55, -1, 0)
 
 ## 3DDFA_v2
-
+https://github.com/cleardusk/3DDFA_V2
 https://colab.research.google.com/drive/1OYrg3cTwkqS0DiRqDlv6DIDsyPwcNmH7?usp=sharing
 
 point_ids:
@@ -142,7 +146,7 @@ point_ids:
 rotation angle to center: (45, 1, 0)
 
 ## Synergy
-
+https://github.com/choyingw/SynergyNet
 https://colab.research.google.com/drive/1pqqnDwkSnUnBjMpAfZtHlI3GH9N2hNw9?usp=sharing
 
 Use their simple api to generate the mesh, but also need to clone their library to use generate the obj file.
@@ -156,13 +160,24 @@ point_ids:
 -rotation_angles -34 39 -137
 
 ## Inferno
-
+https://github.com/radekd91/inferno
 https://colab.research.google.com/drive/1PN9X9mOGcrXD4FfnEewLFzG9x2S8kcHe?usp=sharing
+Model_name: EMICA-CVT_flame2023_notexture (tried on this)
 
+Other models could try:
+EMICA-CVT_flame2020_notexture
+EMICA-MEAD_flame2020_notexture	
 
+point_ids:
+- 4597
+- 4051
+- 3526
+
+rotation_angles: 200 35 310
 
 ## HRN
-
+https://github.com/youngLBW/HRN
+https://www.modelscope.cn/models/iic/cv_resnet50_face-reconstruction/summary
 https://colab.research.google.com/drive/1C5DuB8pTZxk_vdLAGttPlezzfMY3gixB?usp=sharing
 
 3 versions here:
