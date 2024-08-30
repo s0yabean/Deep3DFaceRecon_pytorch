@@ -145,6 +145,16 @@ rotation angle to center: (45, 1, 0)
 
 https://colab.research.google.com/drive/1pqqnDwkSnUnBjMpAfZtHlI3GH9N2hNw9?usp=sharing
 
+Use their simple api to generate the mesh, but also need to clone their library to use generate the obj file.
+The triangles are inside the tri.mat file which is static and applies across different faces.
+
+point_ids:
+- 11876
+- 4411
+- 8191
+
+-rotation_angles -34 39 -137
+
 ## Inferno
 
 https://colab.research.google.com/drive/1PN9X9mOGcrXD4FfnEewLFzG9x2S8kcHe?usp=sharing
