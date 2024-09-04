@@ -173,7 +173,7 @@ point_ids:
 - 4051
 - 3526
 
-rotation_angles: 200 35 310 (close but still can be optimised)
+rotation_angles: 200 30 308 
 
 ## HRN
 https://github.com/youngLBW/HRN
