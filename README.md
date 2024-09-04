@@ -161,8 +161,10 @@ point_ids:
 
 ## Inferno
 https://github.com/radekd91/inferno
-https://colab.research.google.com/drive/1PN9X9mOGcrXD4FfnEewLFzG9x2S8kcHe?usp=sharing
+https://colab.research.google.com/drive/1tG5WHxiW0w5an-NlupGFkSdh1-VICb_c?usp=sharing
 Model_name: EMICA-CVT_flame2023_notexture (tried on this)
+
+Takes 1 for 1 image on Colab T4, 1min 30 seconds for 2 images.
 
 Other models could try:
 EMICA-CVT_flame2020_notexture
